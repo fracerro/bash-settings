@@ -1,0 +1,3 @@
+# bash-settings
+
+greve zi
