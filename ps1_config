@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PREF="\[\033"
+
+BLU="${PREF}[01;94m\]"
+GIALLO="${PREF}[01;93m\]"
+MAGENTA="${PREF}[01;95m\]"
+ROSSO="${PREF}[01;31m\]"
+NORMALE="${PREF}[00m\]"
+SFOCATO="${PREF}[02;37m\]"
+
+export PS1="${BLU}[${GIALLO}\u${MAGENTA}@\h${NORMALE} ${SFOCATO}\w${NORMALE}${BLU}]${NORMALE} ${ROSSO}\$${NORMALE} "
+
+#export PS1="\[\033[01;93m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] "
